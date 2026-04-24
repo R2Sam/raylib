@@ -1649,6 +1649,11 @@ float GetFrameTime(void)
     return (float)CORE.Time.frame;
 }
 
+float GetDrawingTime(void)
+{
+    return (float)CORE.Time.draw;
+}
+
 //----------------------------------------------------------------------------------
 // Module Functions Definition: Custom frame control
 //----------------------------------------------------------------------------------
